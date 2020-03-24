@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="WoodenBells" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 026.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="3.37176" MonolithOffset="0" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 031.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.83575" MonolithOffset="352256"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 036.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.25338" MonolithOffset="704512"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 041.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.39668" MonolithOffset="1056768"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 046.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.59449" MonolithOffset="1409024"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 051.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.28864" MonolithOffset="1761280"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 056.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.07831" MonolithOffset="2113536"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 061.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.73363" MonolithOffset="2465792"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 066.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.51148" MonolithOffset="2818048"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 071.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="3170304" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 076.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.1919" MonolithOffset="3522560"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 081.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.148" MonolithOffset="3874816"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 086.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.30774" MonolithOffset="4227072"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 091.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.78871" MonolithOffset="4579328"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WoodenBells 096.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.13402" MonolithOffset="4931584"
+          MonolithLength="262144" SampleRate="44100"/>
+</samplemap>

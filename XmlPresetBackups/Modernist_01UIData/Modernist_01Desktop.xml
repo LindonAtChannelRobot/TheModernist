@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Background" x="1" y="0" width="969" height="700"
+             fileName="{PROJECT_FOLDER}TheModernistBackground.png"/>
+  <Component type="ScriptPanel" id="PresetFrame" x="388" y="6" width="232"
+             height="27" borderRadius="0" borderSize="0" bgColour="4278190080"
+             itemColour="0" itemColour2="0" textColour="4278190080">
+    <Component type="ScriptButton" id="Presets" x="21" y="5" filmstripImage="{PROJECT_FOLDER}PresetsButton2.png"
+               width="167" height="21" saveInPreset="0" parentComponent="PresetFrame"
+               itemColour2="4225029332"/>
+    <Component type="ScriptLabel" id="myPresetName" x="13" y="3" text="FalseCanyon"
+               editable="0" fontName="Lucida Bright" fontSize="18" width="180"
+               height="22" itemColour="16777215" itemColour2="4292861919" parentComponent="PresetFrame"
+               textColour="4291414473"/>
+    <Component type="ScriptButton" id="NextUserPreset" x="207" y="4" width="20"
+               height="18" isMomentary="1" filmstripImage="{PROJECT_FOLDER}PresetsForward.png"
+               parentComponent="PresetFrame"/>
+    <Component type="ScriptButton" id="PrevUserPreset" x="7" y="6" width="22"
+               height="22" filmstripImage="{PROJECT_FOLDER}Presetsbackwards.png"
+               parentComponent="PresetFrame" isMomentary="1"/>
+  </Component>
+  <Component type="ScriptButton" id="VOICESButton" x="153" y="46" width="150"
+             height="24" filmstripImage="{PROJECT_FOLDER}VOICESButton.png"
+             radioGroup="1"/>
+  <Component type="ScriptButton" id="TREMOLOSButton" x="312" y="46" width="150"
+             height="24" filmstripImage="{PROJECT_FOLDER}TREMOLOSButton.png"
+             radioGroup="1"/>
+  <Component type="ScriptButton" id="EFFECTSButton" x="472" y="46" width="150"
+             height="24" filmstripImage="{PROJECT_FOLDER}EFFECTSButton.png"
+             radioGroup="1"/>
+  <Component type="ScriptButton" id="ARPButton" x="632" y="46" width="150"
+             height="24" filmstripImage="{PROJECT_FOLDER}ARPButton.png" radioGroup="1"/>
+  <Component type="ScriptPanel" id="VOICESPanel" x="297" y="76" borderRadius="0"
+             borderSize="0" width="672" height="622" itemColour="0" itemColour2="0"
+             bgColour="16777215" textColour="16777215">
+    <Component type="ScriptImage" id="VOICESPanelbackground" x="-3" y="13" parentComponent="VOICESPanel"
+               width="675" height="611" fileName="{PROJECT_FOLDER}TheModernistVoicesBackground.png"/>
+    <Component type="ScriptPanel" id="SelectorPanel1" x="22" y="81" borderRadius="0"
+               borderSize="1" itemColour="4408131" itemColour2="4408131" width="157"
+               height="17" parentComponent="VOICESPanel" bgColour="16777215"
+               textColour="16777215">
+      <Component type="ScriptComboBox" id="SelectorComboBox1" x="-1" y="-1" max="28"
+                 parentComponent="SelectorPanel1" width="158" height="22" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4&#10;Carillionist&#10;CelestaOne&#10;CelestaTwo&#10;DrumBells&#10;IceCreamVan&#10;MusicBox&#10;WindChimes&#10;WoodenBells"
+                 itemColour2="1118481" itemColour="3355443" bgColour="16777215"/>
+    </Component>
+    <Component type="ScriptPanel" id="SelectorPanel2" x="22" y="239" borderRadius="0"
+               borderSize="1" itemColour="4408131" itemColour2="4408131" width="157"
+               height="17" parentComponent="VOICESPanel" bgColour="16777215"
+               textColour="16777215">
+      <Component type="ScriptComboBox" id="SelectorComboBox2" x="-1" y="-1" max="28"
+                 parentComponent="SelectorPanel2" width="158" height="22" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4&#10;Carillionist&#10;CelestaOne&#10;CelestaTwo&#10;DrumBells&#10;IceCreamVan&#10;MusicBox&#10;WindChimes&#10;WoodenBells"
+                 bgColour="16777215" itemColour="3355443" itemColour2="1118481"/>
+    </Component>
+    <Component type="ScriptPanel" id="SelectorPanel3" x="22" y="395" borderRadius="0"
+               borderSize="1" itemColour="4408131" itemColour2="4408131" width="157"
+               height="17" parentComponent="VOICESPanel" bgColour="16777215"
+               textColour="16777215">
+      <Component type="ScriptComboBox" id="SelectorComboBox3" x="-1" y="-1" max="28"
+                 parentComponent="SelectorPanel3" width="158" height="22" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4&#10;Carillionist&#10;CelestaOne&#10;CelestaTwo&#10;DrumBells&#10;IceCreamVan&#10;MusicBox&#10;WindChimes&#10;WoodenBells"
+                 bgColour="16777215" itemColour="3355443" itemColour2="1118481"/>
+    </Component>
+    <Component type="ScriptPanel" id="SelectorPanel4" x="21" y="552" borderRadius="0"
+               borderSize="1" itemColour="4408131" itemColour2="4408131" width="157"
+               height="17" parentComponent="VOICESPanel" bgColour="16777215"
+               textColour="16777215">
+      <Component type="ScriptComboBox" id="SelectorComboBox4" x="-1" y="-1" max="28"
+                 parentComponent="SelectorPanel4" width="158" height="22" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4&#10;Carillionist&#10;CelestaOne&#10;CelestaTwo&#10;DrumBells&#10;IceCreamVan&#10;MusicBox&#10;WindChimes&#10;WoodenBells"
+                 bgColour="16777215" itemColour="3355443" itemColour2="1118481"/>
+    </Component>
+    <Component type="ScriptSlider" id="VolumeSliderVoice1" x="220" y="43" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" isPluginParameter="1"
+               pluginParameterName="Voice 1  Level" parentComponent="VOICESPanel"
+               middlePosition="0.5" defaultValue="0.5"/>
+    <Component type="ScriptSlider" id="VolumeSliderVoice2" x="221" y="203" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" isPluginParameter="1"
+               pluginParameterName="Voice 2 Colour" parentComponent="VOICESPanel"
+               defaultValue="0.5" middlePosition="0.5"/>
+    <Component type="ScriptSlider" id="VolumeSliderVoice3" x="220" y="360" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" isPluginParameter="1"
+               pluginParameterName="Voice 3 Level" parentComponent="VOICESPanel"
+               defaultValue="0.5" middlePosition="0.5"/>
+    <Component type="ScriptSlider" id="VolumeSliderVoice4" x="220" y="512" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" isPluginParameter="1"
+               pluginParameterName="Voice 4 Level" parentComponent="VOICESPanel"
+               defaultValue="0.5" middlePosition="0.5"/>
+    <Component type="ScriptSlider" id="AttackVoice1" x="355" y="63" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"/>
+    <Component type="ScriptSlider" id="AttackVoice2" x="355" y="223" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               text="AttackVoice1"/>
+    <Component type="ScriptSlider" id="ReleaseVoice1" x="593" y="63" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="5000" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               showValuePopup="Above" stepSize="1.0"/>
+    <Component type="ScriptSlider" id="ReleaseVoice2" x="593" y="223" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="5000" isPluginParameter="1"
+               pluginParameterName="Voice 2 Release" parentComponent="VOICESPanel"
+               showValuePopup="Above" stepSize="1.0"/>
+    <Component type="ScriptSlider" id="ReleaseVoice3" x="593" y="380" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="5000" isPluginParameter="1"
+               pluginParameterName="Voice 3 Release" parentComponent="VOICESPanel"
+               showValuePopup="Above" stepSize="1.0"/>
+    <Component type="ScriptSlider" id="ReleaseVoice4" x="593" y="532" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="5000" isPluginParameter="1"
+               pluginParameterName="Voince 4 Release" parentComponent="VOICESPanel"
+               showValuePopup="Above" stepSize="1.0"/>
+    <Component type="ScriptSlider" id="AttackVoice3" x="355" y="380" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               text="AttackVoice1"/>
+    <Component type="ScriptSlider" id="AttackVoice4" x="356" y="532" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               text="AttackVoice1"/>
+    <Component type="ScriptSlider" id="DecayVoice1" x="434" y="63" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"/>
+    <Component type="ScriptSlider" id="DecayVoice2" x="434" y="223" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"/>
+    <Component type="ScriptSlider" id="DecayVoice3" x="434" y="380" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"/>
+    <Component type="ScriptSlider" id="DecayVoice4" x="435" y="532" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="5" max="1200" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"/>
+    <Component type="ScriptSlider" id="SustainVoice1" x="513" y="63" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="-100" max="0" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               mode="Decibel" defaultValue="-6" middlePosition="-12"/>
+    <Component type="ScriptSlider" id="SustainVoice2" x="513" y="223" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="-100" max="0" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               mode="Decibel" defaultValue="-6" middlePosition="-12"/>
+    <Component type="ScriptSlider" id="SustainVoice3" x="513" y="380" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="-100" max="0" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               mode="Decibel" defaultValue="-6" middlePosition="-12"/>
+    <Component type="ScriptSlider" id="SustainVoice4" x="514" y="532" filmstripImage="{PROJECT_FOLDER}TheModernistEnvelopeKnob.png"
+               numStrips="101" width="60" height="60" min="-100" max="0" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" parentComponent="VOICESPanel"
+               mode="Decibel" defaultValue="-6" middlePosition="-12"/>
+  </Component>
+  <Component type="ScriptPanel" id="TREMOLOSPanel" x="297" y="78" borderSize="0"
+             borderRadius="0" itemColour2="0" itemColour="0" textColour="16777215"
+             bgColour="16777215" width="672" height="622" visible="0">
+    <Component type="ScriptImage" id="TREMOLOSPanleBackground" x="-3" y="10"
+               width="675" height="603" parentComponent="TREMOLOSPanel" fileName="{PROJECT_FOLDER}TheModernistTremolosBackground.png"/>
+  </Component>
+  <Component type="ScriptPanel" id="EFFECTSPanel" x="297" y="76" width="672"
+             height="622" itemColour="0" itemColour2="0" textColour="16777215"
+             bgColour="16777215" borderSize="0" borderRadius="0" visible="0">
+    <Component type="ScriptImage" id="EFFECTSPanelBackground" x="-3" y="12"
+               parentComponent="EFFECTSPanel" width="676" height="612" fileName="{PROJECT_FOLDER}TheModernistEffectsBackground.png"/>
+    <Component type="ScriptSlider" id="WarmthKnob" x="190" y="47" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" height="100" width="100" isPluginParameter="1"
+               pluginParameterName="Warmth" parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="ColourKnob1" x="398" y="47" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" height="100" width="100" min="100" max="1800"
+               isPluginParameter="1" pluginParameterName="Colour" parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="Room1" x="192" y="204" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" height="100" width="100" min="-100" max="-1"
+               isPluginParameter="1" pluginParameterName="Room 1 Amount" middlePosition="-18"
+               parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="Room2" x="399" y="204" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" height="100" width="100" min="-100" max="-1"
+               isPluginParameter="1" pluginParameterName="Room 2 Amount" middlePosition="-18"
+               parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="InstrumentPan" x="309" y="516" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               width="100" height="100" numStrips="101" min="-100" max="100"
+               isPluginParameter="1" pluginParameterName="Master Pan" middlePosition="0"
+               parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="InstrumentGain" x="430" y="516" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" mode="Decibel" min="-100"
+               max="36" stepSize="0.1" suffix=" dB" middlePosition="-12" isPluginParameter="1"
+               pluginParameterName="Master Gain" parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="Humaniser" x="189" y="516" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" defaultValue="0.2" mode="NormalizedPercentage"
+               suffix="%" middlePosition="0.5" parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="MicroDelayTimeLeft" x="90" y="360" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" max="18" isPluginParameter="1"
+               pluginParameterName="Delay Time Left" mode="TempoSync" showValuePopup="Above"
+               stepSize="0.1" middlePosition="9" parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="MicroDelayTimeRight" x="207" y="360"
+               filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png" numStrips="101"
+               width="100" height="100" processorId="MicroDelay" parameterId="DelayTimeRight"
+               max="18" isPluginParameter="1" pluginParameterName="Delay Time Right"
+               mode="TempoSync" showValuePopup="Above" middlePosition="9" stepSize="1"
+               parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="MicroDelayFeedbackLeft" x="325" y="360"
+               filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png" numStrips="101"
+               width="100" height="100" processorId="MicroDelay" parameterId="FeedbackLeft"
+               max="0.899" isPluginParameter="1" pluginParameterName="Delay Feedback Left"
+               showValuePopup="Above" mode="NormalizedPercentage" parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="MicroDelayFeedbackRight" x="442" y="360"
+               filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png" numStrips="101"
+               width="100" height="100" max="0.899" isPluginParameter="1" pluginParameterName="Delay Feedback Right"
+               showValuePopup="Above" mode="NormalizedPercentage" parentComponent="EFFECTSPanel"/>
+    <Component type="ScriptSlider" id="MicroDelayMix" x="560" y="360" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" isPluginParameter="1"
+               pluginParameterName="Delay Time Left" mode="NormalizedPercentage"
+               showValuePopup="Above" middlePosition="0.5" defaultValue="0.5"
+               suffix="%" parentComponent="EFFECTSPanel"/>
+  </Component>
+  <Component type="ScriptPanel" id="ARPPanel" x="296" y="75" width="672" height="622"
+             itemColour="0" itemColour2="0" textColour="16777215" bgColour="16777215"
+             borderSize="0" borderRadius="0" visible="0">
+    <Component type="ScriptImage" id="APRPanelBackground" x="0" y="13" width="674"
+               height="611" parentComponent="ARPPanel" fileName="{PROJECT_FOLDER}TheModernistArpBackground.png"/>
+    <Component type="ScriptButton" id="ArpBypass" x="7" y="20" filmstripImage="{PROJECT_FOLDER}onOffButton.png"
+               width="15" height="15" parentComponent="ARPPanel"/>
+    <Component type="ScriptSlider" id="ArpTempo" x="415" y="360" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" min="2" max="18" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" mode="TempoSync" defaultValue="9"
+               showValuePopup="Above" parentComponent="ARPPanel"/>
+    <Component type="ScriptSlider" id="ArpTempo1" x="180" y="360" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" min="4" max="32" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" defaultValue="8" showValuePopup="Above"
+               parentComponent="ARPPanel" stepSize="1.0" middlePosition="14"/>
+    <Component type="ScriptSlider" id="ArpSwing" x="415" y="518" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" mode="NormalizedPercentage"
+               defaultValue="0.5" showValuePopup="Above" parentComponent="ARPPanel"
+               middlePosition="0.5" suffix="%"/>
+    <Component type="ScriptSlider" id="ArpOctaves" x="183" y="518" filmstripImage="{PROJECT_FOLDER}TheModernistLargeKnob.png"
+               numStrips="101" width="100" height="100" min="-2" max="2" isPluginParameter="1"
+               pluginParameterName="Voice 1 Release" showValuePopup="Above"
+               parentComponent="ARPPanel" stepSize="1.0" middlePosition="0"/>
+    <Component type="ScriptSliderPack" id="ArpVelocities" x="47" y="48" parentComponent="ARPPanel"
+               width="588" height="101" itemColour="4282992969" itemColour2="4282335039"/>
+    <Component type="ScriptSliderPack" id="ArpNoteLengths" x="47" y="203" parentComponent="ARPPanel"
+               width="588" height="101" itemColour="4282992969" itemColour2="4282335039"/>
+  </Component>
+  <Component type="ScriptButton" id="Randomise" x="65" y="251" width="146"
+             height="74" filmstripImage="{PROJECT_FOLDER}blank10Square.png"/>
+  <Component type="ScriptFloatingTile" id="myPresetTile" x="0" y="40" width="967"
+             height="660" ContentType="PresetBrowser" bgColour="4166802524"
+             itemColour="4287684863" itemColour2="4292472062" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: true,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 3&#13;&#10;}"
+             Font="Cambria" visible="0"/>
+  <Component type="ScriptButton" id="AuthoriseInInst" x="307" y="13" width="65"
+             height="13" filmstripImage="{PROJECT_FOLDER}AuthoriseInDemoButton.png"
+             visible="0"/>
+  <Component type="ScriptPanel" id="SettingsPanel" x="0" y="39" borderRadius="0"
+             borderSize="0" width="970" height="660" itemColour="4289638062"
+             itemColour2="4283716692" bgColour="4294967295" visible="0">
+    <Component type="ScriptFloatingTile" id="Devices" x="214" y="93" width="185"
+               height="440" ContentType="MidiSources" bgColour="4278190080"
+               itemColour="4294951115" itemColour2="4294951115" Data="{&#13;&#10;}"
+               Font="Bahnschrift" parentComponent="SettingsPanel"/>
+    <Component type="ScriptFloatingTile" id="Channels" x="431" y="93" width="136"
+               height="443" ContentType="MidiChannelList" bgColour="4278190080"
+               itemColour="4294951115" itemColour2="4294951115" Data="{&#13;&#10;}"
+               Font="Bahnschrift" itemColour3="4287311149" parentComponent="SettingsPanel"/>
+    <Component type="ScriptFloatingTile" id="AudioSettings" x="598" y="93" ContentType="CustomSettings"
+               bgColour="4278190080" itemColour="4294951115" itemColour2="4294951115"
+               Data="{&#13;&#10;  &quot;Driver&quot;: true,&#13;&#10;  &quot;Device&quot;: true,&#13;&#10;  &quot;Output&quot;: true,&#13;&#10;  &quot;BufferSize&quot;: true,&#13;&#10;  &quot;SampleRate&quot;: true,&#13;&#10;  &quot;GlobalBPM&quot;: true,&#13;&#10;  &quot;StreamingMode&quot;: false,&#13;&#10;  &quot;GraphicRendering&quot;: false,&#13;&#10;  &quot;ScaleFactor&quot;: true,&#13;&#10;  &quot;SustainCC&quot;: true,&#13;&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;  &quot;ClearMidiCC&quot;: true,&#13;&#10;  &quot;SampleLocation&quot;: false,&#13;&#10;  &quot;DebugMode&quot;: false,&#13;&#10;  &quot;ScaleFactorList&quot;: [&#13;&#10;    0.5,&#13;&#10;    0.75,&#13;&#10;    1,&#13;&#10;    1.25,&#13;&#10;    1.5,&#13;&#10;    2&#13;&#10;  ]&#13;&#10;}"
+               Font="Bahnschrift" width="228" height="443" parentComponent="SettingsPanel"/>
+  </Component>
+  <Component type="ScriptPanel" id="AuthorisationDialog" x="0" y="40" width="970"
+             height="657" bgColour="13454575" itemColour="4283406527" itemColour2="4282549673"
+             visible="0">
+    <Component type="ScriptLabel" id="TitleLabel" x="344" y="203" parentComponent="AuthorisationDialog"
+               width="344" height="42" text="Authorisation Process" fontSize="39"
+               editable="0" fontName="Cambria"/>
+    <Component type="ScriptLabel" id="Description" x="308" y="294" parentComponent="AuthorisationDialog"
+               editable="0" fontName="Cambria" fontSize="18" width="403" height="30"
+               text="Please enter your serial number below."/>
+    <Component type="ScriptLabel" id="SerialInput" x="385" y="343" parentComponent="AuthorisationDialog"
+               bgColour="4287729808" width="261" height="29" text="" itemColour="4278190080"
+               itemColour2="4227858431" fontName="Cambria"/>
+    <Component type="ScriptButton" id="SubmitButton" x="433" y="396" parentComponent="AuthorisationDialog"
+               filmstripImage="{PROJECT_FOLDER}authorise.png" width="171" height="34"
+               saveInPreset="0"/>
+  </Component>
+  <Component type="ScriptButton" id="Settings" x="929" y="5" filmstripImage="{PROJECT_FOLDER}settings.png"
+             width="34" height="29"/>
+</ContentProperties>

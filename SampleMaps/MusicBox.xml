@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="MusicBox" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 036.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.14004" MonolithOffset="0" MonolithLength="348160"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 041.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="2.64319" MonolithOffset="348160" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 046.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.20154" MonolithOffset="700416" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 051.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.60514" MonolithOffset="1052672" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 056.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.29679" MonolithOffset="1404928" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 061.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.21135" MonolithOffset="1757184" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 066.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.13913" MonolithOffset="2109440" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 071.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.84789" MonolithOffset="2461696" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 076.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="6.24373" MonolithOffset="2813952" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 081.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.14463" MonolithOffset="3166208" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 086.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.18839" MonolithOffset="3518464" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 091.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="2.06614" MonolithOffset="3870720" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 096.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.49704" MonolithOffset="4222976" MonolithLength="430080"
+          SampleRate="44100"/>
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 026.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1" MonolithOffset="4653056" MonolithLength="315392"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}MusicBox 031.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.27573" MonolithOffset="4968448" MonolithLength="327680"
+          SampleRate="44100"/>
+</samplemap>

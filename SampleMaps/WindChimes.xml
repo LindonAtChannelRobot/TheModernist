@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="WindChimes" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 046.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="5.56218" MonolithOffset="0" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 051.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.2789" MonolithOffset="352256" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 056.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="2.46232" MonolithOffset="704512" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 061.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.93661" MonolithOffset="1056768" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 066.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.8428" MonolithOffset="1409024" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 071.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.88816" MonolithOffset="1761280" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 076.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.35377" MonolithOffset="2113536" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 081.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1.53361" MonolithOffset="2465792" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 086.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="2.25998" MonolithOffset="2818048" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 091.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="1" MonolithOffset="3170304" MonolithLength="45056"
+          SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 096.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="3.87139" MonolithOffset="3215360" MonolithLength="36864"
+          SampleRate="44100"/>
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 026.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="7.81562" MonolithOffset="3252224" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 031.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="7.89335" MonolithOffset="3604480" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 036.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="8.53194" MonolithOffset="3956736" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}WindChimes 041.wav" Duplicate="1" Normalized="1"
+          NormalizedPeak="6.51633" MonolithOffset="4308992" MonolithLength="352256"
+          SampleRate="44100"/>
+</samplemap>

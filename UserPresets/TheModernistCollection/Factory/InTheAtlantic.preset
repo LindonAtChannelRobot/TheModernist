@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="PresetButton" value="1"/>
+    <Control type="ScriptSlider" id="InstrumentGain" value="-10.899999"/>
+    <Control type="ScriptSlider" id="InstrumentPan" value="3.8299999"/>
+    <Control type="ScriptSlider" id="WarmthKnob" value="0"/>
+    <Control type="ScriptSlider" id="ColourKnob1" value="1800"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice1" value="0.66000003"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice2" value="0.23"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice3" value="0.74000001"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice4" value="0.33000001"/>
+    <Control type="ScriptButton" id="ByPassVoice1" value="1"/>
+    <Control type="ScriptButton" id="ByPassVoice2" value="0"/>
+    <Control type="ScriptButton" id="ByPassVoice3" value="1"/>
+    <Control type="ScriptButton" id="ByPassVoice4" value="0"/>
+    <Control type="ScriptButton" id="MicroDelayOnOff" value="1"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackRight" value="0"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeRight" value="0"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackLeft" value="0"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeLeft" value="0"/>
+    <Control type="ScriptSlider" id="Room1" value="-1"/>
+    <Control type="ScriptSlider" id="Room2" value="-100"/>
+    <Control type="ScriptSlider" id="ReleaseVoice1" value="557.87"/>
+    <Control type="ScriptSlider" id="ReleaseVoice2" value="406.51999"/>
+    <Control type="ScriptSlider" id="ReleaseVoice3" value="588.15997"/>
+    <Control type="ScriptSlider" id="ReleaseVoice4" value="547.53003"/>
+    <Control type="ScriptButton" id="ArpBypass" value="1"/>
+    <Control type="ScriptSlider" id="ArpTempo" value="9"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="VibesVoice3" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 026.wav" Duplicate="0"
+          MonolithOffset="0" MonolithLength="327680" SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 031.wav" Duplicate="0"
+          MonolithOffset="327680" MonolithLength="319488" SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 036.wav" Duplicate="0"
+          MonolithOffset="647168" MonolithLength="307200" SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 041.wav" Duplicate="0"
+          MonolithOffset="954368" MonolithLength="303104" SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 046.wav" Duplicate="0"
+          MonolithOffset="1257472" MonolithLength="303104" SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 051.wav" Duplicate="0"
+          MonolithOffset="1560576" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 056.wav" Duplicate="0"
+          MonolithOffset="1912832" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 061.wav" Duplicate="0"
+          MonolithOffset="2265088" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 066.wav" Duplicate="0"
+          MonolithOffset="2617344" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 071.wav" Duplicate="0"
+          MonolithOffset="2969600" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 076.wav" Duplicate="0"
+          MonolithOffset="3321856" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 081.wav" Duplicate="0"
+          MonolithOffset="3674112" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 086.wav" Duplicate="0"
+          MonolithOffset="4026368" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 091.wav" Duplicate="0"
+          MonolithOffset="4378624" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}VibesFizzed 096.wav" Duplicate="0"
+          MonolithOffset="4730880" MonolithLength="319488" SampleRate="44100"/>
+</samplemap>

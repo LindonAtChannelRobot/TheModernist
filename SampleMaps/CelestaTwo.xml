@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="CelestaTwo" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 051.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="0" MonolithLength="237568"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 056.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="237568" MonolithLength="253952"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 061.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="491520" MonolithLength="270336"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 066.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.66226" MonolithOffset="761856"
+          MonolithLength="249856" SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 071.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.4751" MonolithOffset="1011712"
+          MonolithLength="212992" SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 076.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.56696" MonolithOffset="1224704"
+          MonolithLength="192512" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 081.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.84822" MonolithOffset="1417216"
+          MonolithLength="172032" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 086.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.47009" MonolithOffset="1589248"
+          MonolithLength="139264" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 091.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.80332" MonolithOffset="1728512"
+          MonolithLength="102400" SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 096.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.84736" MonolithOffset="1830912"
+          MonolithLength="102400" SampleRate="44100"/>
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 026.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="1933312" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 031.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="2285568" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 036.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="2637824" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 041.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="2990080" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}celesta_two 046.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="3342336" MonolithLength="344064"
+          SampleRate="44100"/>
+</samplemap>

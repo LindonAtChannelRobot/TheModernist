@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="MarimbaVoice4" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 096.wav"
+          Duplicate="1" MonolithOffset="0" MonolithLength="36864" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 091.wav"
+          Duplicate="1" MonolithOffset="36864" MonolithLength="49152" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 086.wav"
+          Duplicate="1" MonolithOffset="86016" MonolithLength="57344" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 081.wav"
+          Duplicate="1" MonolithOffset="143360" MonolithLength="69632"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 076.wav"
+          Duplicate="1" MonolithOffset="212992" MonolithLength="81920"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 071.wav"
+          Duplicate="1" MonolithOffset="294912" MonolithLength="106496"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 066.wav"
+          Duplicate="1" MonolithOffset="401408" MonolithLength="126976"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 061.wav"
+          Duplicate="1" MonolithOffset="528384" MonolithLength="147456"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 056.wav"
+          Duplicate="1" MonolithOffset="675840" MonolithLength="163840"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 051.wav"
+          Duplicate="1" MonolithOffset="839680" MonolithLength="192512"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 046.wav"
+          Duplicate="1" MonolithOffset="1032192" MonolithLength="225280"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 041.wav"
+          Duplicate="1" MonolithOffset="1257472" MonolithLength="258048"
+          SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 036.wav"
+          Duplicate="1" MonolithOffset="1515520" MonolithLength="290816"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 031.wav"
+          Duplicate="1" MonolithOffset="1806336" MonolithLength="327680"
+          SampleRate="44100"/>
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Marimba\Modernist  Marimba Samples\LindonsMarimbaSinging 026.wav"
+          Duplicate="1" MonolithOffset="2134016" MonolithLength="352256"
+          SampleRate="44100"/>
+</samplemap>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="IceCreamVan" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 046.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.50086" MonolithOffset="0" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 051.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="4.60613" MonolithOffset="352256"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 056.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="3.31188" MonolithOffset="704512"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 061.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.18792" MonolithOffset="1056768"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 066.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="3.97164" MonolithOffset="1409024"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 071.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.24778" MonolithOffset="1761280"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 076.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.44433" MonolithOffset="2113536"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 081.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="5.42407" MonolithOffset="2465792"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 086.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="4.96006" MonolithOffset="2818048"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 091.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.17138" MonolithOffset="3170304"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 096.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="2.3908" MonolithOffset="3522560"
+          MonolithLength="274432" SampleRate="44100"/>
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 026.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1" MonolithOffset="3796992" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 031.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.26681" MonolithOffset="4149248"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 036.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.73892" MonolithOffset="4501504"
+          MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}IceCreamVan 041.wav" Duplicate="1"
+          Normalized="1" NormalizedPeak="1.52456" MonolithOffset="4853760"
+          MonolithLength="352256" SampleRate="44100"/>
+</samplemap>

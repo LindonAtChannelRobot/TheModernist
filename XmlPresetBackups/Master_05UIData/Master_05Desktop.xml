@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Background" x="1" y="0" width="635" height="500"
+             fileName="{PROJECT_FOLDER}ModernistGlockenspielBackground.png"/>
+  <Component type="ScriptButton" id="PresetButton" x="23" y="6" filmstripImage="{PROJECT_FOLDER}PresetButton.png"
+             width="123" height="22"/>
+  <Component type="ScriptSlider" id="InstrumentGain" x="547" y="395" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" mode="Decibel" min="-100"
+             max="36" stepSize="0.1" suffix=" dB" middlePosition="-12" isPluginParameter="1"
+             pluginParameterName="Master Gain"/>
+  <Component type="ScriptSlider" id="InstrumentPan" x="547" y="439" filmstripImage="{PROJECT_FOLDER}stdPanPitch.png"
+             width="30" height="30" numStrips="101" min="-100" max="100" isPluginParameter="1"
+             pluginParameterName="Master Pan" middlePosition="0"/>
+  <Component type="ScriptButton" id="Randomise" x="47" y="81" width="100"
+             height="40" filmstripImage="{PROJECT_FOLDER}blank10Square.png"/>
+  <Component type="ScriptSlider" id="WarmthKnob" x="226" y="77" filmstripImage="{PROJECT_FOLDER}stdDial.png"
+             numStrips="101" height="50" width="50" isPluginParameter="1"
+             pluginParameterName="Warmth"/>
+  <Component type="ScriptSlider" id="ColourKnob1" x="358" y="77" filmstripImage="{PROJECT_FOLDER}stdDial.png"
+             numStrips="101" height="50" width="50" min="100" max="1800" isPluginParameter="1"
+             pluginParameterName="Colour"/>
+  <Component type="ScriptButton" id="VoiceSelector1" x="465" y="56" height="15"
+             width="20" filmstripImage="{PROJECT_FOLDER}VoiceSelectorButton.png"
+             isMomentary="1"/>
+  <Component type="ScriptButton" id="VoiceSelector2" x="505" y="56" height="15"
+             width="20" filmstripImage="{PROJECT_FOLDER}VoiceSelectorButton.png"
+             isMomentary="1"/>
+  <Component type="ScriptButton" id="VoiceSelector3" x="543" y="56" height="15"
+             width="20" filmstripImage="{PROJECT_FOLDER}VoiceSelectorButton.png"
+             isMomentary="1"/>
+  <Component type="ScriptButton" id="VoiceSelector4" x="585" y="56" height="15"
+             width="20" filmstripImage="{PROJECT_FOLDER}VoiceSelectorButton.png"
+             isMomentary="1"/>
+  <Component type="ScriptSlider" id="VolumeSliderVoice1" x="465" y="97" filmstripImage="{PROJECT_FOLDER}StdSlider.png"
+             numStrips="101" width="20" height="100" isPluginParameter="1"
+             pluginParameterName="Voice 1  Level"/>
+  <Component type="ScriptSlider" id="VolumeSliderVoice2" x="505" y="96" filmstripImage="{PROJECT_FOLDER}StdSlider.png"
+             numStrips="101" width="20" height="100" isPluginParameter="1"
+             pluginParameterName="Voice 2 Colour"/>
+  <Component type="ScriptSlider" id="VolumeSliderVoice3" x="544" y="96" filmstripImage="{PROJECT_FOLDER}StdSlider.png"
+             numStrips="101" width="20" height="100" isPluginParameter="1"
+             pluginParameterName="Voice 3 Level"/>
+  <Component type="ScriptSlider" id="VolumeSliderVoice4" x="584" y="96" filmstripImage="{PROJECT_FOLDER}StdSlider.png"
+             numStrips="101" width="20" height="100" isPluginParameter="1"
+             pluginParameterName="Voice 4 Level"/>
+  <Component type="ScriptButton" id="ByPassVoice1" x="467" y="205" filmstripImage="{PROJECT_FOLDER}onOffButton.png"
+             width="15" height="15"/>
+  <Component type="ScriptButton" id="ByPassVoice2" x="507" y="205" filmstripImage="{PROJECT_FOLDER}onOffButton.png"
+             width="15" height="15"/>
+  <Component type="ScriptButton" id="ByPassVoice3" x="547" y="205" filmstripImage="{PROJECT_FOLDER}onOffButton.png"
+             width="15" height="15"/>
+  <Component type="ScriptButton" id="ByPassVoice4" x="588" y="205" filmstripImage="{PROJECT_FOLDER}onOffButton.png"
+             width="15" height="15"/>
+  <Component type="ScriptButton" id="MicroDelayOnOff" x="248" y="341" filmstripImage="{PROJECT_FOLDER}onOffButton.png"
+             width="15" height="15"/>
+  <Component type="ScriptSlider" id="MicroDelayFeedbackRight" x="348" y="435"
+             filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png" numStrips="101"
+             width="30" height="30" max="0.899" isPluginParameter="1" pluginParameterName="Delay Feedback Right"
+             showValuePopup="Above" mode="NormalizedPercentage"/>
+  <Component type="ScriptSlider" id="MicroDelayTimeRight" x="257" y="435"
+             filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png" numStrips="101"
+             width="30" height="30" processorId="MicroDelay" parameterId="DelayTimeRight"
+             max="18" isPluginParameter="1" pluginParameterName="Delay Time Right"
+             mode="TempoSync" showValuePopup="Above" middlePosition="9" stepSize="1"/>
+  <Component type="ScriptSlider" id="MicroDelayFeedbackLeft" x="348" y="391"
+             filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png" numStrips="101"
+             width="30" height="30" processorId="MicroDelay" parameterId="FeedbackLeft"
+             max="0.899" isPluginParameter="1" pluginParameterName="Delay Feedback Left"
+             showValuePopup="Above" mode="NormalizedPercentage"/>
+  <Component type="ScriptSlider" id="MicroDelayTimeLeft" x="257" y="391" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" max="18" isPluginParameter="1"
+             pluginParameterName="Delay Time Left" mode="TempoSync" showValuePopup="Above"
+             stepSize="0.1" middlePosition="9"/>
+  <Component type="ScriptSlider" id="Room1" x="226" y="163" filmstripImage="{PROJECT_FOLDER}stdDial.png"
+             numStrips="101" height="50" width="50" min="-100" max="-1" isPluginParameter="1"
+             pluginParameterName="Room 1 Amount" middlePosition="-18"/>
+  <Component type="ScriptSlider" id="Room2" x="360" y="163" filmstripImage="{PROJECT_FOLDER}stdDial.png"
+             numStrips="101" height="50" width="50" min="-100" max="-1" isPluginParameter="1"
+             pluginParameterName="Room 2 Amount" middlePosition="-18"/>
+  <Component type="ScriptSlider" id="ReleaseVoice1" x="460" y="261" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" min="5" max="1200" isPluginParameter="1"
+             pluginParameterName="Voice 1 Release"/>
+  <Component type="ScriptSlider" id="ReleaseVoice2" x="502" y="261" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" min="5" max="1200" isPluginParameter="1"
+             pluginParameterName="Voice 2 Release"/>
+  <Component type="ScriptSlider" id="ReleaseVoice3" x="542" y="261" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" min="5" max="1200" isPluginParameter="1"
+             pluginParameterName="Voice 3 Release"/>
+  <Component type="ScriptSlider" id="ReleaseVoice4" x="580" y="261" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" min="5" max="1200" isPluginParameter="1"
+             pluginParameterName="Voince 4 Release"/>
+  <Component type="ScriptSlider" id="Humaniser" x="526" y="319" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" isPluginParameter="1"
+             pluginParameterName="Voice 1 Release" defaultValue="0.2" mode="NormalizedPercentage"
+             suffix="%" middlePosition="0.5"/>
+  <Component type="ScriptButton" id="ArpBypass" x="250" y="243" filmstripImage="{PROJECT_FOLDER}onOffButton.png"
+             width="15" height="15"/>
+  <Component type="ScriptSlider" id="ArpTempo" x="303" y="287" filmstripImage="{PROJECT_FOLDER}stdSmallDial30.png"
+             numStrips="101" width="30" height="30" min="2" max="18" isPluginParameter="1"
+             pluginParameterName="Voice 1 Release" mode="TempoSync" defaultValue="9"
+             showValuePopup="Above"/>
+  <Component type="ScriptPanel" id="SelectorPanel1" x="318" y="92" borderRadius="0"
+             borderSize="1" itemColour="4282598211" itemColour2="4282598211"
+             width="175" height="33" visible="0">
+    <Component type="ScriptComboBox" id="SelectorComboBox1" x="16" y="5" max="20"
+               parentComponent="SelectorPanel1" width="130" height="26" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4"/>
+    <Component type="ScriptLabel" id="Label1" x="1" y="5" parentComponent="SelectorPanel1"
+               text="1" width="16" height="24"/>
+    <Component type="ScriptButton" id="SelectorDismiss1" x="149" y="6" parentComponent="SelectorPanel1"
+               height="22" width="22" isMomentary="1" filmstripImage="{PROJECT_FOLDER}dialogDismiss.png"/>
+  </Component>
+  <Component type="ScriptPanel" id="SelectorPanel2" x="354" y="92" borderRadius="0"
+             borderSize="1" itemColour="4282598211" itemColour2="4282598211"
+             width="175" height="33" visible="0">
+    <Component type="ScriptComboBox" id="SelectorComboBox2" x="16" y="5" max="20"
+               parentComponent="SelectorPanel2" width="130" height="26" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4"/>
+    <Component type="ScriptLabel" id="Label2" x="1" y="5" parentComponent="SelectorPanel2"
+               text="2" width="16" height="24"/>
+    <Component type="ScriptButton" id="SelectorDismiss2" x="149" y="6" parentComponent="SelectorPanel2"
+               height="22" width="22" isMomentary="1" filmstripImage="{PROJECT_FOLDER}dialogDismiss.png"/>
+  </Component>
+  <Component type="ScriptPanel" id="SelectorPanel3" x="395" y="92" borderRadius="0"
+             borderSize="1" itemColour="4282598211" itemColour2="4282598211"
+             width="175" height="33" visible="0">
+    <Component type="ScriptComboBox" id="SelectorComboBox3" x="16" y="5" max="20"
+               parentComponent="SelectorPanel3" width="130" height="26" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4"/>
+    <Component type="ScriptLabel" id="Label3" x="1" y="5" parentComponent="SelectorPanel3"
+               text="3" width="16" height="24"/>
+    <Component type="ScriptButton" id="SelectorDismiss3" x="149" y="6" parentComponent="SelectorPanel3"
+               height="22" width="22" isMomentary="1" filmstripImage="{PROJECT_FOLDER}dialogDismiss.png"/>
+  </Component>
+  <Component type="ScriptPanel" id="SelectorPanel4" x="434" y="92" borderRadius="0"
+             borderSize="1" itemColour="4282598211" itemColour2="4282598211"
+             width="175" height="33" visible="0">
+    <Component type="ScriptComboBox" id="SelectorComboBox4" x="16" y="5" max="20"
+               parentComponent="SelectorPanel4" width="130" height="26" items="Glock Voice1&#10;Glock Voice2&#10;Glock Voice3&#10;Glock Voice4&#10;Kalimba Voice1&#10;Kalimba Voice2&#10;Kalimba Voice3&#10;Kalimba Voice4&#10;Marimba Voice1&#10;Marimba Voice2&#10;Marimba Voice3&#10;Marimba Voice4&#10;Vibes Voice1&#10;Vibes Voice2&#10;Vibes Voice3&#10;Vibes Voice4&#10;Xylo Voice1&#10;Xylo Voice2&#10;Xylo Voice3&#10;Xylo Voice4"/>
+    <Component type="ScriptLabel" id="Label4" x="1" y="5" parentComponent="SelectorPanel4"
+               text="4" width="16" height="24"/>
+    <Component type="ScriptButton" id="SelectorDismiss4" x="149" y="6" parentComponent="SelectorPanel4"
+               height="22" width="22" isMomentary="1" filmstripImage="{PROJECT_FOLDER}dialogDismiss.png"/>
+  </Component>
+  <Component type="ScriptFloatingTile" id="myPresetTile" x="0" y="30" width="637"
+             height="469" ContentType="PresetBrowser" bgColour="4166802524"
+             itemColour="4287684863" itemColour2="4292472062" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: true,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 3&#13;&#10;}"
+             Font="Cambria" visible="0"/>
+  <Component type="ScriptButton" id="AuthoriseInInst" x="445" y="9" width="65"
+             height="13" filmstripImage="{PROJECT_FOLDER}AuthoriseInDemoButton.png"
+             visible="0"/>
+  <Component type="ScriptPanel" id="SettingsPanel" x="1" y="30" borderRadius="0"
+             borderSize="0" width="634" height="470" itemColour="4289638062"
+             itemColour2="4283716692" bgColour="4294967295" visible="0">
+    <Component type="ScriptFloatingTile" id="Devices" x="6" y="17" width="185"
+               height="440" ContentType="MidiSources" bgColour="4278190080"
+               itemColour="4294951115" itemColour2="4294951115" Data="{&#13;&#10;}"
+               Font="Bahnschrift" parentComponent="SettingsPanel"/>
+    <Component type="ScriptFloatingTile" id="Channels" x="223" y="17" width="136"
+               height="443" ContentType="MidiChannelList" bgColour="4278190080"
+               itemColour="4294951115" itemColour2="4294951115" Data="{&#13;&#10;}"
+               Font="Bahnschrift" itemColour3="4287311149" parentComponent="SettingsPanel"/>
+    <Component type="ScriptFloatingTile" id="AudioSettings" x="390" y="17" ContentType="CustomSettings"
+               bgColour="4278190080" itemColour="4294951115" itemColour2="4294951115"
+               Data="{&#13;&#10;  &quot;Driver&quot;: true,&#13;&#10;  &quot;Device&quot;: true,&#13;&#10;  &quot;Output&quot;: true,&#13;&#10;  &quot;BufferSize&quot;: true,&#13;&#10;  &quot;SampleRate&quot;: true,&#13;&#10;  &quot;GlobalBPM&quot;: true,&#13;&#10;  &quot;StreamingMode&quot;: false,&#13;&#10;  &quot;GraphicRendering&quot;: false,&#13;&#10;  &quot;ScaleFactor&quot;: true,&#13;&#10;  &quot;SustainCC&quot;: true,&#13;&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;  &quot;ClearMidiCC&quot;: true,&#13;&#10;  &quot;SampleLocation&quot;: false,&#13;&#10;  &quot;DebugMode&quot;: false,&#13;&#10;  &quot;ScaleFactorList&quot;: [&#13;&#10;    0.5,&#13;&#10;    0.75,&#13;&#10;    1,&#13;&#10;    1.25,&#13;&#10;    1.5,&#13;&#10;    2&#13;&#10;  ]&#13;&#10;}"
+               Font="Bahnschrift" width="228" height="443" parentComponent="SettingsPanel"/>
+  </Component>
+  <Component type="ScriptPanel" id="AuthorisationDialog" x="0" y="30" width="635"
+             height="50470" bgColour="13454575" itemColour="4283406527" itemColour2="4282549673"
+             visible="0">
+    <Component type="ScriptLabel" id="TitleLabel" x="152" y="59" parentComponent="AuthorisationDialog"
+               width="344" height="42" text="Authorisation Process" fontSize="39"
+               editable="0" fontName="Cambria"/>
+    <Component type="ScriptLabel" id="Description" x="116" y="150" parentComponent="AuthorisationDialog"
+               editable="0" fontName="Cambria" fontSize="18" width="403" height="30"
+               text="Please enter your serial number below."/>
+    <Component type="ScriptLabel" id="SerialInput" x="193" y="199" parentComponent="AuthorisationDialog"
+               bgColour="4287729808" width="261" height="29" text="" itemColour="4278190080"
+               itemColour2="4227858431" fontName="Cambria"/>
+    <Component type="ScriptButton" id="SubmitButton" x="241" y="252" parentComponent="AuthorisationDialog"
+               filmstripImage="{PROJECT_FOLDER}authorise.png" width="171" height="34"
+               saveInPreset="0"/>
+  </Component>
+  <Component type="ScriptButton" id="Settings" x="595" y="1" filmstripImage="{PROJECT_FOLDER}settings.png"
+             width="34" height="29"/>
+</ContentProperties>

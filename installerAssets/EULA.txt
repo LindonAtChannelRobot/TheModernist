@@ -1,0 +1,46 @@
+﻿Channel Robot End-User License Agreement
+
+By installing the software, you confirm your acceptance of the Channel Robot End User License Agreement.
+
+This is a non-exclusive, single-user License.
+
+This End User License Agreement (“Agreement”) is between Channel Robot and you. 
+
+IMPORTANT – PLEASE READ THIS LICENSE AGREEMENT CAREFULLY BEFORE INSTALLING THIS SOFTWARE. 
+
+By using the Channel Robot Software you accept these terms. The Channel Robot Software may be distributed with software or components from third-parties (“Third-Party Software”). Use of Third-Party Software is also subject to the terms of this EULA.
+
+If you do not accept these terms, do not use the software provided with this installation.
+
+1. Limited Use License. The Software is licensed, not sold, by Channel Robot or its Third-Party Software suppliers (“Suppliers”) to the original end user for use only on the terms set forth in the Agreement. If and only if your Software is purchased through a Channel Robot Authorized Dealer or Distributor, Channel Robot, as Licensor, grants you, as an end user Licensee, a non-exclusive license to use the Software (which includes computer software, updates and any bug fixes subsequently delivered and associated media, printed materials and “online” or electronic documentation).
+
+2. Title. The Software is owned by Channel Robot or its Suppliers as applicable, and is protected by copyright laws and international treaty provisions, as well as other intellectual property laws and treaties. Channel Robot (or its Suppliers, as applicable) retains title to and ownership of the Software and all copies, as well as any rights not specifically granted. This Agreement only gives you certain rights to use the Software and related documentation, which may be revoked if you do not follow these terms.
+
+3. Limited Rights to Install and Use the Software.
+
+(i) Permitted use and restrictions. You may install the Software into the memory of any computer owned by you for your internal business use or your own personal enjoyment, but you may not redistribute or electronically transfer the Software to someone else’s computer or operate it in a time-sharing or service-bureau operation.
+
+(ii) Reverse engineering and copying limitations. You may make one copy of the Software for backup purposes only (and replacement backup copies in the event of loss of or damage to a backup copy), provided you include all copyright notices contained on the original media on the backup copy. You may not modify, translate, adapt, reverse engineer, decompile, create other works from, or disassemble the Software or any portions thereof (except and to the extent that applicable law expressly permits reverse engineering, decompilation or disassembly).
+
+(iii) Technical limitations. The Software may include technological measures that are designed to prevent or detect unlicensed use of the Software. Circumvention of these technological measures is prohibited, except and only to the extent that applicable law expressly permits, despite this limitation. Any attempt to circumvent technical limitations may render the Software or certain features unusable or unstable, and may prevent you from updating or upgrading the Software.
+
+(iv) No reconfiguration. The Software is licensed for installation and use only in the manner it was provided to you, as configured by an automated installation program provided with the Software, or as described in Channel Robot’s Documentation. You may not separate the components contained in the Software or otherwise reconfigure the Software to circumvent technical limitations on the use of the Software or to otherwise exceed the scope of your license.
+
+4. Export and Renting Restrictions. You may not export, convey, rent, sublicense, or otherwise distribute the Software or any rights therein to any person or entity.
+
+5. License Transfer. Except if otherwise stated within this EULA, Licensee may resell the software to a third party or transfer the software permanently by paying a Transfer Fee, provided the third party agrees in writing with this EULA and Licensee ceases all use of the software, completely removes all installed copies of the software from its computers and – if the software was not purchased via download – deletes or transfers the original data storage to the third party (if Licensee is not obliged to a longer storage by law). NFR (not for resale) copies, including freeware products, free bonus products, and giveaway copies, cannot be resold, or redistributed.
+Following respective request from Licensee via its email address registered with Channel Robot, and payment of the Transfer Fee, the license file of the Product will be transferred by Channel Robot to the third party, and at the same time the registration of Licensee for the software purchased will be deleted. The current and updated Transfer Fee can be found by contacting Channel robot at address https://channelrobot.com/support/
+
+6. Excluded Products. Channel Robot and its Suppliers give NO warranty for Software free of charge, including Software designated as “demo”, “limited release,” “pre-release,” “loan,” “beta” or “test.” This Software is provided “AS IS.”
+
+7. Limitation of Liability. Channel Robot AND ITS SUPPLIERS SHALL HAVE NO LIABILITY TO YOU WHETHER IN CONTRACT, TORT, NEGLIGENCE OR PRODUCTS LIABILITY, FOR ANY CLAIM, LOSS, OR DAMAGE, INCLUDING BUT NOT LIMITED TO LOST PROFITS, LOSS OF USE, BUSINESS INTERRUPTION, LOST DATA, OR LOST FILES, OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND OR NATURE WHATSOEVER ARISING OUT OF OR IN CONNECTION WITH THE USE OF OR INABILITY TO USE THE SOFTWARE OR DOCUMENTATION, OR THE PERFORMANCE OR OPERATION OF THE SOFTWARE, EVEN IF Channel Robot OR ITS SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE EXCLUSION OR LIMITATION MAY NOT APPLY TO YOU. IN NO EVENT SHALL Channel Robot’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE EXCEED THE AMOUNT PAID BY YOU FOR THE SOFTWARE.
+
+8. Termination. To the extent permitted by law, and without prejudice to any other rights Channel Robot may have, Channel Robot may terminate your license if you materially breach these terms and conditions.
+
+9. Third-Party Software and Information. This EULA governs any Third-Party Software distributed by Channel Robot. Channel Robot may include information about third party products and services, including links to Web sites run by others. Channel Robot is not responsible for, and does not endorse or sponsor, this third-party information.
+
+10. Miscellaneous. This Agreement constitutes the entire agreement between the parties with respect to the use of the Software and Documentation, and supersedes all prior or contemporaneous understandings or agreements, written or oral, regarding such subject matter. No amendment to or modification of this Agreement will be binding unless in writing and signed by a duly authorised representative of Channel Robot.
+
+Should you have any questions concerning this Agreement, please contact Channel Robot at 15 Madison Garden Hull HU5 4DB UK, www.channelrobot.com web.
+
+Copyright ©2019 Channel Robot. All rights reserved.

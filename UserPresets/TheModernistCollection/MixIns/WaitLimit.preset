@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="PresetButton" value="1"/>
+    <Control type="ScriptSlider" id="InstrumentGain" value="12.5"/>
+    <Control type="ScriptSlider" id="InstrumentPan" value="3.83"/>
+    <Control type="ScriptButton" id="Randomise" value="0"/>
+    <Control type="ScriptSlider" id="WarmthKnob" value="0.721737"/>
+    <Control type="ScriptSlider" id="ColourKnob1" value="869.05"/>
+    <Control type="ScriptButton" id="VoiceSelector1" value="0"/>
+    <Control type="ScriptButton" id="VoiceSelector2" value="0"/>
+    <Control type="ScriptButton" id="VoiceSelector3" value="0"/>
+    <Control type="ScriptButton" id="VoiceSelector4" value="0"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice1" value="0.14146"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice2" value="0.739908"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice3" value="0.311564"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice4" value="0.928203"/>
+    <Control type="ScriptButton" id="ByPassVoice1" value="0"/>
+    <Control type="ScriptButton" id="ByPassVoice2" value="0"/>
+    <Control type="ScriptButton" id="ByPassVoice3" value="0"/>
+    <Control type="ScriptButton" id="ByPassVoice4" value="0"/>
+    <Control type="ScriptButton" id="MicroDelayOnOff" value="1"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackRight" value="0.307293"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeRight" value="12"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackLeft" value="0.719529"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeLeft" value="14"/>
+    <Control type="ScriptSlider" id="Room1" value="-20.7002"/>
+    <Control type="ScriptSlider" id="Room2" value="-12.0907"/>
+    <Control type="ScriptSlider" id="ReleaseVoice1" value="479.05"/>
+    <Control type="ScriptSlider" id="ReleaseVoice2" value="263.431"/>
+    <Control type="ScriptSlider" id="ReleaseVoice3" value="339.136"/>
+    <Control type="ScriptSlider" id="ReleaseVoice4" value="225.308"/>
+    <Control type="ScriptSlider" id="Humaniser" value="0.751441"/>
+    <Control type="ScriptButton" id="ArpBypass" value="1"/>
+    <Control type="ScriptSlider" id="ArpTempo" value="9"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox1" value="3"/>
+    <Control type="ScriptButton" id="SelectorDismiss1" value="0"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox2" value="3"/>
+    <Control type="ScriptButton" id="SelectorDismiss2" value="0"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox3" value="10"/>
+    <Control type="ScriptButton" id="SelectorDismiss3" value="0"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox4" value="3"/>
+    <Control type="ScriptButton" id="SelectorDismiss4" value="0"/>
+    <Control type="ScriptButton" id="AuthoriseInInst" value="0"/>
+    <Control type="ScriptButton" id="Settings" value="0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

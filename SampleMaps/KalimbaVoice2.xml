@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="KalimbaVoice2" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 096.wav"
+          Duplicate="1" MonolithOffset="0" MonolithLength="32768" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 091.wav"
+          Duplicate="1" MonolithOffset="32768" MonolithLength="36864" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 086.wav"
+          Duplicate="1" MonolithOffset="69632" MonolithLength="53248" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 081.wav"
+          Duplicate="1" MonolithOffset="122880" MonolithLength="77824"
+          SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 076.wav"
+          Duplicate="1" MonolithOffset="200704" MonolithLength="110592"
+          SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 071.wav"
+          Duplicate="1" MonolithOffset="311296" MonolithLength="176128"
+          SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 066.wav"
+          Duplicate="1" MonolithOffset="487424" MonolithLength="327680"
+          SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 061.wav"
+          Duplicate="1" MonolithOffset="815104" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 056.wav"
+          Duplicate="1" MonolithOffset="1028096" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 051.wav"
+          Duplicate="1" MonolithOffset="1380352" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 046.wav"
+          Duplicate="1" MonolithOffset="1732608" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 041.wav"
+          Duplicate="1" MonolithOffset="2084864" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 036.wav"
+          Duplicate="1" MonolithOffset="2437120" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 031.wav"
+          Duplicate="1" MonolithOffset="2789376" MonolithLength="352256"
+          SampleRate="44100"/>
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\Audio\ChannelRobot\Modernist\Kalimba\Modernist Kalimba Samples\KalimbaVoiced 026.wav"
+          Duplicate="1" MonolithOffset="3141632" MonolithLength="352256"
+          SampleRate="44100"/>
+</samplemap>

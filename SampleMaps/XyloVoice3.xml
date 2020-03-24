@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="XyloVoice3" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 026.wav" Duplicate="1"
+          MonolithOffset="0" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 031.wav" Duplicate="1"
+          MonolithOffset="352256" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 036.wav" Duplicate="1"
+          MonolithOffset="704512" MonolithLength="258048" SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 041.wav" Duplicate="1"
+          MonolithOffset="962560" MonolithLength="176128" SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 046.wav" Duplicate="1"
+          MonolithOffset="1138688" MonolithLength="122880" SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 051.wav" Duplicate="1"
+          MonolithOffset="1261568" MonolithLength="110592" SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 056.wav" Duplicate="1"
+          MonolithOffset="1372160" MonolithLength="102400" SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 061.wav" Duplicate="1"
+          MonolithOffset="1474560" MonolithLength="94208" SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 066.wav" Duplicate="1"
+          MonolithOffset="1568768" MonolithLength="86016" SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 071.wav" Duplicate="1"
+          MonolithOffset="1654784" MonolithLength="81920" SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 076.wav" Duplicate="1"
+          MonolithOffset="1736704" MonolithLength="73728" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 081.wav" Duplicate="1"
+          MonolithOffset="1810432" MonolithLength="73728" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 086.wav" Duplicate="1"
+          MonolithOffset="1884160" MonolithLength="65536" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 091.wav" Duplicate="1"
+          MonolithOffset="1949696" MonolithLength="61440" SampleRate="44100"/>
+  <sample Root="96" LoKey="94" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}XylophoneMadeOfTin 096.wav" Duplicate="1"
+          MonolithOffset="2011136" MonolithLength="61440" SampleRate="44100"/>
+</samplemap>

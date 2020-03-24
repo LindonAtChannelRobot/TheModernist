@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="XyloVoice1" RRGroupAmount="1" MicPositions=";" SaveMode="2">
+  <sample Root="26" LoKey="24" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 026.wav" Duplicate="0"
+          MonolithOffset="0" MonolithLength="352256" SampleRate="44100"/>
+  <sample Root="31" LoKey="29" HiKey="33" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 031.wav" Duplicate="0"
+          MonolithOffset="352256" MonolithLength="348160" SampleRate="44100"/>
+  <sample Root="36" LoKey="34" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 036.wav" Duplicate="0"
+          MonolithOffset="700416" MonolithLength="262144" SampleRate="44100"/>
+  <sample Root="41" LoKey="39" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 041.wav" Duplicate="0"
+          MonolithOffset="962560" MonolithLength="180224" SampleRate="44100"/>
+  <sample Root="46" LoKey="44" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 046.wav" Duplicate="0"
+          MonolithOffset="1142784" MonolithLength="122880" SampleRate="44100"/>
+  <sample Root="51" LoKey="49" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 051.wav" Duplicate="0"
+          MonolithOffset="1265664" MonolithLength="98304" SampleRate="44100"/>
+  <sample Root="56" LoKey="54" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 056.wav" Duplicate="0"
+          MonolithOffset="1363968" MonolithLength="90112" SampleRate="44100"/>
+  <sample Root="61" LoKey="59" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 061.wav" Duplicate="0"
+          MonolithOffset="1454080" MonolithLength="90112" SampleRate="44100"/>
+  <sample Root="66" LoKey="64" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 066.wav" Duplicate="0"
+          MonolithOffset="1544192" MonolithLength="86016" SampleRate="44100"/>
+  <sample Root="71" LoKey="69" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 071.wav" Duplicate="0"
+          MonolithOffset="1630208" MonolithLength="86016" SampleRate="44100"/>
+  <sample Root="76" LoKey="74" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 076.wav" Duplicate="0"
+          MonolithOffset="1716224" MonolithLength="90112" SampleRate="44100"/>
+  <sample Root="81" LoKey="79" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 081.wav" Duplicate="0"
+          MonolithOffset="1806336" MonolithLength="69632" SampleRate="44100"/>
+  <sample Root="86" LoKey="84" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 086.wav" Duplicate="0"
+          MonolithOffset="1875968" MonolithLength="61440" SampleRate="44100"/>
+  <sample Root="91" LoKey="89" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}LindonsXylophone 091.wav" Duplicate="0"
+          MonolithOffset="1937408" MonolithLength="61440" SampleRate="44100"/>
+</samplemap>
