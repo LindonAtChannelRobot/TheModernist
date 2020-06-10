@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="Modernist_01" Bypassed="0" Gain="1" Balance="0"
+<Processor Type="SynthChain" ID="Modernist_02" Bypassed="0" Gain="1" Balance="0"
            VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
            BuildVersion="650">
   <ChildProcessors>
@@ -20,10 +20,10 @@
             <Control type="ScriptComboBox" id="SelectorComboBox2" value="26"/>
             <Control type="ScriptComboBox" id="SelectorComboBox3" value="16"/>
             <Control type="ScriptComboBox" id="SelectorComboBox4" value="20"/>
-            <Control type="ScriptSlider" id="VolumeSliderVoice1" value="0.8"/>
-            <Control type="ScriptSlider" id="VolumeSliderVoice2" value="0.592766"/>
-            <Control type="ScriptSlider" id="VolumeSliderVoice3" value="0.62"/>
-            <Control type="ScriptSlider" id="VolumeSliderVoice4" value="0.825115"/>
+            <Control type="ScriptSlider" id="VolumeSliderVoice1" value="0.762197"/>
+            <Control type="ScriptSlider" id="VolumeSliderVoice2" value="0.534808"/>
+            <Control type="ScriptSlider" id="VolumeSliderVoice3" value="0.631849"/>
+            <Control type="ScriptSlider" id="VolumeSliderVoice4" value="0.862576"/>
             <Control type="ScriptSlider" id="AttackVoice1" value="633.2"/>
             <Control type="ScriptSlider" id="AttackVoice2" value="247.22"/>
             <Control type="ScriptSlider" id="ReleaseVoice1" value="829.232"/>
@@ -68,16 +68,15 @@
             <Control type="ScriptSliderPack" id="ArpVelocities" value="21" data="88....PBA..bJD..fsP...2BA..hKD...tP...sBA..PJD..PnP..fgBA..fJD..3pP...tBA..3JD..fqP..fqBA..hJD..foP...lBA..jJD...qP...nBA"/>
             <Control type="ScriptSliderPack" id="ArpNoteLengths" value="3" data="88....dBA..XGD..fdP..ffBA..HHD...gP...EBA..BJD..PgP...EBA..THD..HnP...UBA..nGD..fdP..fnBA..nGD..fdP...lBA..nGD..PpP...5AA"/>
             <Control type="ScriptButton" id="Randomise" value="0"/>
-            <Control type="ScriptButton" id="AuthoriseInInst" value="0"/>
             <Control type="ScriptButton" id="Settings" value="0"/>
           </Content>
-          <UIData Source="Modernist_01UIData"/>
+          <UIData Source="Modernist_02UIData"/>
         </Processor>
         <Processor Type="MidiMuter" ID="GlobalMute" Bypassed="0">
           <ChildProcessors/>
           <Content>
             <Control type="ScriptButton" id="ignoreButton" value="0"/>
-            <Control type="ScriptButton" id="fixStuckNotes" value="0"/>
+            <Control type="ScriptButton" id="fixStuckNotes" value="1"/>
           </Content>
         </Processor>
         <Processor Type="Arpeggiator" ID="Arpeggiator1" Bypassed="0">
@@ -166,11 +165,11 @@
         </Processor>
       </ChildProcessors>
     </Processor>
-    <Processor Type="StreamingSampler" ID="Voice1" Bypassed="0" Gain="0.8" Balance="0"
-               VoiceLimit="256" KillFadeTime="20" IconColour="0" PreloadSize="60000"
-               BufferSize="4096" VoiceAmount="256" SamplerRepeatMode="3" RRGroupAmount="1"
-               PitchTracking="1" OneShot="0" CrossfadeGroups="0" Purged="0"
-               Reversed="0" NumChannels="1" UseStaticMatrix="0" Group0Table=""
+    <Processor Type="StreamingSampler" ID="Voice1" Bypassed="0" Gain="0.762197"
+               Balance="0" VoiceLimit="256" KillFadeTime="20" IconColour="0"
+               PreloadSize="60000" BufferSize="4096" VoiceAmount="256" SamplerRepeatMode="3"
+               RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
+               Purged="0" Reversed="0" NumChannels="1" UseStaticMatrix="0" Group0Table=""
                Group1Table="" Group2Table="" Group3Table="" Group4Table="" Group5Table=""
                Group6Table="" Group7Table="" SampleMapID="CelestaOne">
       <ChildProcessors>
@@ -238,7 +237,7 @@
         <channelData enabled="1" level="0" suffix=""/>
       </channels>
     </Processor>
-    <Processor Type="StreamingSampler" ID="Voice2" Bypassed="0" Gain="0.592766"
+    <Processor Type="StreamingSampler" ID="Voice2" Bypassed="0" Gain="0.534808"
                Balance="0" VoiceLimit="256" KillFadeTime="20" IconColour="0"
                PreloadSize="60000" BufferSize="4096" VoiceAmount="256" SamplerRepeatMode="3"
                RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
@@ -309,7 +308,7 @@
         <channelData enabled="1" level="0" suffix=""/>
       </channels>
     </Processor>
-    <Processor Type="StreamingSampler" ID="Voice3" Bypassed="0" Gain="0.62"
+    <Processor Type="StreamingSampler" ID="Voice3" Bypassed="0" Gain="0.631849"
                Balance="0" VoiceLimit="256" KillFadeTime="20" IconColour="0"
                PreloadSize="60000" BufferSize="4096" VoiceAmount="256" SamplerRepeatMode="3"
                RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
@@ -380,7 +379,7 @@
         <channelData enabled="1" level="0" suffix=""/>
       </channels>
     </Processor>
-    <Processor Type="StreamingSampler" ID="Voice4" Bypassed="0" Gain="0.825115"
+    <Processor Type="StreamingSampler" ID="Voice4" Bypassed="0" Gain="0.862576"
                Balance="0" VoiceLimit="256" KillFadeTime="20" IconColour="0"
                PreloadSize="60000" BufferSize="4096" VoiceAmount="256" SamplerRepeatMode="3"
                RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"

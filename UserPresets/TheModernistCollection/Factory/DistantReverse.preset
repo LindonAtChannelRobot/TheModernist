@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="2.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="Button1" value="0"/>
+    <Control type="ScriptButton" id="NextUserPreset" value="0"/>
+    <Control type="ScriptButton" id="PrevUserPreset" value="0"/>
+    <Control type="ScriptButton" id="VOICESButton" value="1"/>
+    <Control type="ScriptButton" id="TREMOLOSButton" value="0"/>
+    <Control type="ScriptButton" id="EFFECTSButton" value="0"/>
+    <Control type="ScriptButton" id="ARPButton" value="0"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox1" value="7"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox2" value="24"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox3" value="1"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox4" value="10"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice1" value="0.591708"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice2" value="0.533561"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice3" value="0"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice4" value="0.884919"/>
+    <Control type="ScriptSlider" id="AttackVoice1" value="114.83"/>
+    <Control type="ScriptSlider" id="AttackVoice2" value="431.32"/>
+    <Control type="ScriptSlider" id="ReleaseVoice1" value="1361.51"/>
+    <Control type="ScriptSlider" id="ReleaseVoice2" value="1305.98"/>
+    <Control type="ScriptSlider" id="ReleaseVoice3" value="2139.64"/>
+    <Control type="ScriptSlider" id="ReleaseVoice4" value="4489.74"/>
+    <Control type="ScriptSlider" id="AttackVoice3" value="3209.47"/>
+    <Control type="ScriptSlider" id="AttackVoice4" value="1117.39"/>
+    <Control type="ScriptSlider" id="DecayVoice1" value="2191.34"/>
+    <Control type="ScriptSlider" id="DecayVoice2" value="343.07"/>
+    <Control type="ScriptSlider" id="DecayVoice3" value="1871.48"/>
+    <Control type="ScriptSlider" id="DecayVoice4" value="883.186"/>
+    <Control type="ScriptSlider" id="SustainVoice1" value="-14.2512"/>
+    <Control type="ScriptSlider" id="SustainVoice2" value="-23.3188"/>
+    <Control type="ScriptSlider" id="SustainVoice3" value="-32.5495"/>
+    <Control type="ScriptSlider" id="SustainVoice4" value="-1.56963"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice1" value="8"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice1" value="0"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice2" value="0"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice2" value="8"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice3" value="0"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice3" value="8"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice4" value="0"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice4" value="8"/>
+    <Control type="ScriptSlider" id="WarmthKnob" value="0.366425"/>
+    <Control type="ScriptSlider" id="ColourKnob1" value="1099.61"/>
+    <Control type="ScriptSlider" id="Room1" value="-9.07247"/>
+    <Control type="ScriptSlider" id="Room2" value="-57.1527"/>
+    <Control type="ScriptSlider" id="InstrumentPan" value="3.83"/>
+    <Control type="ScriptSlider" id="InstrumentGain" value="1.9"/>
+    <Control type="ScriptSlider" id="Humaniser" value="0.929778"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeLeft" value="8"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeRight" value="11"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackLeft" value="0.437198"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackRight" value="0.444031"/>
+    <Control type="ScriptSlider" id="MicroDelayMix" value="0.5"/>
+    <Control type="ScriptButton" id="ArpBypass" value="1"/>
+    <Control type="ScriptSlider" id="ArpTempo" value="9"/>
+    <Control type="ScriptSlider" id="ArpSteps" value="8"/>
+    <Control type="ScriptSlider" id="ArpSwing" value="0.5"/>
+    <Control type="ScriptSlider" id="ArpOctaves" value="0"/>
+    <Control type="ScriptSliderPack" id="ArpVelocities" value="15" data="64.....+DtdT7ilYlwOZlYF+nYlY7ilYlwOZlYF+nYlY7ilYlwO8nvE+zLyL7C...vOlYl4935Qg6iqGEtOEtdz9."/>
+    <Control type="ScriptSliderPack" id="ArpNoteLengths" value="0" data="64.gqGk9DtdT5S35QoOCWOp9PgqG6iYlYtOWOJ79b8nv6y0iBuOWOJ79b8nv6y0iBuOWOJ797nv06yiBWuOOJb89."/>
+    <Control type="ScriptButton" id="Randomise" value="0"/>
+    <Control type="ScriptButton" id="AuthoriseInInst" value="0"/>
+    <Control type="ScriptButton" id="Settings" value="0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

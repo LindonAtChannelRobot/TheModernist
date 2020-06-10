@@ -1,33 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="2.0.0">
   <Content Processor="Interface">
-    <Control type="ScriptButton" id="PresetButton" value="1"/>
-    <Control type="ScriptSlider" id="InstrumentGain" value="2.7000015"/>
-    <Control type="ScriptSlider" id="InstrumentPan" value="3.8299999"/>
-    <Control type="ScriptSlider" id="WarmthKnob" value="0.11"/>
-    <Control type="ScriptSlider" id="ColourKnob1" value="1521.2"/>
-    <Control type="ScriptSlider" id="VolumeSliderVoice1" value="0.82999998"/>
-    <Control type="ScriptSlider" id="VolumeSliderVoice2" value="0.49000001"/>
-    <Control type="ScriptSlider" id="VolumeSliderVoice3" value="0.77999997"/>
-    <Control type="ScriptSlider" id="VolumeSliderVoice4" value="0.82999998"/>
-    <Control type="ScriptButton" id="ByPassVoice1" value="0"/>
-    <Control type="ScriptButton" id="ByPassVoice2" value="1"/>
-    <Control type="ScriptButton" id="ByPassVoice3" value="0"/>
-    <Control type="ScriptButton" id="ByPassVoice4" value="1"/>
-    <Control type="ScriptButton" id="MicroDelayOnOff" value="0"/>
-    <Control type="ScriptSlider" id="MicroDelayFeedbackRight" value="0.55000001"/>
-    <Control type="ScriptSlider" id="MicroDelayTimeRight" value="15"/>
-    <Control type="ScriptSlider" id="MicroDelayFeedbackLeft" value="0.77999997"/>
-    <Control type="ScriptSlider" id="MicroDelayTimeLeft" value="15"/>
-    <Control type="ScriptSlider" id="Room1" value="-9.71"/>
-    <Control type="ScriptSlider" id="Room2" value="-16.049999"/>
+    <Control type="ScriptButton" id="Button1" value="0"/>
+    <Control type="ScriptButton" id="NextUserPreset" value="0"/>
+    <Control type="ScriptButton" id="PrevUserPreset" value="0"/>
+    <Control type="ScriptButton" id="VOICESButton" value="1"/>
+    <Control type="ScriptButton" id="TREMOLOSButton" value="0"/>
+    <Control type="ScriptButton" id="EFFECTSButton" value="0"/>
+    <Control type="ScriptButton" id="ARPButton" value="0"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox1" value="1"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox2" value="13"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox3" value="22"/>
+    <Control type="ScriptComboBox" id="SelectorComboBox4" value="27"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice1" value="0.827267"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice2" value="0.475739"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice3" value="0.78"/>
+    <Control type="ScriptSlider" id="VolumeSliderVoice4" value="0.841979"/>
+    <Control type="ScriptSlider" id="AttackVoice1" value="0"/>
+    <Control type="ScriptSlider" id="AttackVoice2" value="138.84"/>
     <Control type="ScriptSlider" id="ReleaseVoice1" value="557.87"/>
-    <Control type="ScriptSlider" id="ReleaseVoice2" value="406.51999"/>
-    <Control type="ScriptSlider" id="ReleaseVoice3" value="588.15997"/>
-    <Control type="ScriptSlider" id="ReleaseVoice4" value="547.53003"/>
+    <Control type="ScriptSlider" id="ReleaseVoice2" value="406.52"/>
+    <Control type="ScriptSlider" id="ReleaseVoice3" value="588.16"/>
+    <Control type="ScriptSlider" id="ReleaseVoice4" value="547.53"/>
+    <Control type="ScriptSlider" id="AttackVoice3" value="0"/>
+    <Control type="ScriptSlider" id="AttackVoice4" value="0"/>
+    <Control type="ScriptSlider" id="DecayVoice1" value="0"/>
+    <Control type="ScriptSlider" id="DecayVoice2" value="0"/>
+    <Control type="ScriptSlider" id="DecayVoice3" value="0"/>
+    <Control type="ScriptSlider" id="DecayVoice4" value="0"/>
+    <Control type="ScriptSlider" id="SustainVoice1" value="-6"/>
+    <Control type="ScriptSlider" id="SustainVoice2" value="-6"/>
+    <Control type="ScriptSlider" id="SustainVoice3" value="-6"/>
+    <Control type="ScriptSlider" id="SustainVoice4" value="-6"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice1" value="8"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice1" value="0"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice2" value="0"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice2" value="8"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice3" value="0"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice3" value="8"/>
+    <Control type="ScriptSlider" id="TremoloDepthVoice4" value="0"/>
+    <Control type="ScriptSlider" id="TremoloSpeedVoice4" value="8"/>
+    <Control type="ScriptSlider" id="WarmthKnob" value="0.07"/>
+    <Control type="ScriptSlider" id="ColourKnob1" value="1800"/>
+    <Control type="ScriptSlider" id="Room1" value="-9.71"/>
+    <Control type="ScriptSlider" id="Room2" value="-16.05"/>
+    <Control type="ScriptSlider" id="InstrumentPan" value="3.83"/>
+    <Control type="ScriptSlider" id="InstrumentGain" value="2.7"/>
+    <Control type="ScriptSlider" id="Humaniser" value="0.2"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeLeft" value="15"/>
+    <Control type="ScriptSlider" id="MicroDelayTimeRight" value="15"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackLeft" value="0.78"/>
+    <Control type="ScriptSlider" id="MicroDelayFeedbackRight" value="0.55"/>
+    <Control type="ScriptSlider" id="MicroDelayMix" value="0.14"/>
     <Control type="ScriptButton" id="ArpBypass" value="1"/>
     <Control type="ScriptSlider" id="ArpTempo" value="9"/>
+    <Control type="ScriptSlider" id="ArpTempo1" value="8"/>
+    <Control type="ScriptSlider" id="ArpSwing" value="0.5"/>
+    <Control type="ScriptSlider" id="ArpOctaves" value="0"/>
+    <Control type="ScriptSliderPack" id="ArpVelocities" value="15" data="64......................................................................................."/>
+    <Control type="ScriptSliderPack" id="ArpNoteLengths" value="15" data="64......................................................................................."/>
+    <Control type="ScriptButton" id="Randomise" value="0"/>
+    <Control type="ScriptButton" id="AuthoriseInInst" value="0"/>
+    <Control type="ScriptButton" id="Settings" value="0"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

@@ -19,6 +19,7 @@ inline function displayPanels()
 include("Serials.js");
 
 var AuthState = false;
+var DemoK = 0;
 const var AuthoriseInInst = Content.getComponent("AuthoriseInInst");
 
 const var SerialInput = Content.getComponent("SerialInput");
@@ -27,16 +28,41 @@ const var Description = Content.getComponent("Description");
 const var AuthorisationDialogue = Content.getComponent("AuthorisationDialog");
 const var GlobalMute = Synth.getMidiProcessor("GlobalMute");
     
-const var MasterContainer = Synth.getChildSynth("Modernist_01");
-// demo mode timer....
-var engineStartTime = Engine.getUptime();
-var timerState = 1;  // 1 = in the initial period, 2 = in the on/off period
+const var OrText = Content.getComponent("OrText");
+const var DemoCountText = Content.getComponent("DemoCountText");
+
 var masterByPass = 1;  // used to set the bypass
-const var timer = Engine.createTimerObject();
 
 
+inline function getDemoCounter(demoString)
+{
 
+	local kstr;
+	local knum;
+	local invK;
 
+	kstr = demoString.substring(4,5);
+	knum = parseInt(kstr,10);
+	invK = 9 - knum;
+	return invK;
+}
+
+inline function createOffset(num)
+{
+    local invKount = 9 - num;
+    Console.print("in bound num:" + num);
+	local Kstring = "";
+	for (k=0; k < 4; k++)
+    {
+        Kstring = Kstring.concat(Math.floor(Math.random()* 10));
+    }
+    Kstring = Kstring.concat(invKount);
+    for (k=0; k < 4; k++)
+    {
+        Kstring = Kstring.concat(Math.floor(Math.random()* 10));
+    }
+    return Kstring;
+}
 // Checks if the serial input is valid and stores the result if successful. //
 inline function onSubmitButtonControl(component, value)
 {
@@ -44,7 +70,7 @@ inline function onSubmitButtonControl(component, value)
         return;
     
     local v = SerialInput.getValue();
-    Console.print(v);
+    //Console.print(v);
     
     // Checks if it's in the input
     if(serials.Data.contains(v))
@@ -75,29 +101,56 @@ inline function onSubmitButtonControl(component, value)
 Content.getComponent("SubmitButton").setControlCallback(onSubmitButtonControl);
 
 
+inline function onAuthoriseInInstControl(component, value)
+{
+    //
+    //Console.print("this value is:" + value);
+
+    local offsetKString;
+    AuthorisationDialogue.set("visible", false);
+    GlobalMute.setAttribute(0, false);
+    DemoK--;
+    offsetKString = createOffset(DemoK);
+    Console.print(offsetKString);
+    local data = 
+    {
+        "Setting": offsetKString
+    };
+    Engine.dumpAsJSON(data, "../OffsetValues.js");
+    AuthorisationDialogue.startTimer(900000);
+
+};
+Content.getComponent("AuthoriseInInst").setControlCallback(onAuthoriseInInstControl);
+
+
 inline function setValidLicense(isValid)
 {
     // Do whatever you want to do here. I suggest a MIDI muter...
-    // GlobalMute.setAttribute(0, 1 - isValid);
+
+    GlobalMute.setAttribute(0, 1 - isValid);
     
     if(isValid)
     {
         // Change this to any other visual indication...
         // a valid license...
         AuthorisationDialogue.set("visible", false);
+        AuthorisationDialogue.stopTimer();
         AuthState = true;
-        AuthoriseInInst.showControl(false);
+        //AuthoriseInInst.showControl(false);
         // make sure we are currently unmuted.
-        MasterContainer.setBypassed(0);
+        //MasterContainer.setBypassed(0);
     }
     else
     {
         //not a valid license...
-        // AuthorisationDialogue.set("visible", true);
+        AuthorisationDialogue.set("visible", true);
         AuthState = false;
-        AuthoriseInInst.showControl(true);
+        // make sure we are currently muted.
+        //MasterContainer.setBypassed(1);
+        //AuthorisationDialogue.showControl(true);
     }
 }
+
 
 inline function checkOnLoad()
 {
@@ -106,7 +159,23 @@ inline function checkOnLoad()
         
     // Load the serial from the stored file
     local pData = Engine.loadFromJSON("../RegistrationInfo.js");
+    local dataC = Engine.loadFromJSON("../OffsetValues.js");
     Console.print("Checking serial");
+    
+    if(dataC)
+    {
+        DemoK = getDemoCounter(dataC.Setting);
+    }else{
+        local offSets;
+        offSets = createOffset(9);
+        local data = 
+        {
+            "Setting": offSets
+        };
+        DemoK = 9;
+        Engine.dumpAsJSON(data, "../OffsetValues.js");
+    }
+    
     
     if(pData)    
     {
@@ -116,13 +185,30 @@ inline function checkOnLoad()
         if(serials.Data.contains(v))
         {
             setValidLicense(true);
+            Console.print("valid license apparently..");
             return;
         }
     }else{
+        setValidLicense(false);
+        Console.print("not a valid license..");
+        Console.print("DemoK is:" + DemoK);
+        if (DemoK <=0)
+        {
+            OrText.showControl(false);
+            AuthoriseInInst.showControl(false);
+            DemoCountText.showControl(false);
+                
+        }else{
+            OrText.showControl(true);
+            AuthoriseInInst.showControl(true);
+            DemoCountText.showControl(true);
+            DemoCountText.set("text",("Number of Demos left: " + DemoK));
+        }
         Description.set("text", "Please enter your serial number below.");
+        AuthorisationDialogue.showControl(true);
     }
     
-    setValidLicense(false);
+
 }
 
 // Call this on startup
@@ -132,9 +218,9 @@ checkOnLoad();
 //  enable for the demo version......
 
 
-MasterContainer.setBypassed(1 - masterByPass);
+//MasterContainer.setBypassed(1 - masterByPass);
 
-AuthorisationDialogue.startTimer(900000);
+//AuthorisationDialogue.startTimer(5000);
 
 // timer.startTimer(900000); // in milliseconds
 
@@ -142,7 +228,9 @@ AuthorisationDialogue.startTimer(900000);
 
 AuthorisationDialogue.setTimerCallback(function()
 {
-    Console.print(Engine.getUptime() - engineStartTime );
+    //Console.print(Engine.getUptime() - engineStartTime );
+    checkOnLoad();
+    /*
     if (timerState == 1){
         // check is the license valid yet
         if (AuthState == false)
@@ -169,6 +257,7 @@ AuthorisationDialogue.setTimerCallback(function()
             AuthorisationDialogue.stopTimer();
         };
     };
+    */
 });
 
 // ------------- end auth and demo --------------------------
@@ -631,16 +720,6 @@ inline function onSettingsControl(component, value)
 Content.getComponent("Settings").setControlCallback(onSettingsControl);
 
 
-
-inline function onAuthoriseInInstControl(component, value)
-{
-    //
-    if (AuthState == false){
-    AuthorisationDialogue.set("visible", value);
-    };
-};
-
-Content.getComponent("AuthoriseInInst").setControlCallback(onAuthoriseInInstControl);
 
 
 
